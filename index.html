@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="exercise-00.js"></script>
+    <script type="text/javascript" src="exercise-01.js"></script>
+    <script type="text/javascript" src="exercise-02.js"></script>
+    <script type="text/javascript" src="exercise-03.js"></script>
+    <script type="text/javascript" src="exercise-04.js"></script>
     <title>JavaScript Basics</title>
   </head>
-  <body></body>
+  <body>
+    <script>
+      //Ex1
+      const String = "Paco";     
+      const Number = 47;                 
+      const Boolean = true;              
+      const Null = null;              
+      const Undefined = undefined; 
+
+      console.log("String:", String);
+      console.log("Number:", Number);
+      console.log("Boolean:", Boolean);
+      console.log("Null:", Null);
+      console.log("Undefined:", Undefined);
+
+      //Ex2
+      const name = "Unai"
+      function updateValue(value) {
+        name = value;
+      }
+      updateValue("Cuendria");
+      console.log("Musician name:", name);
+      updateValue("true");
+      console.log("Name true:", name);
+      updateValue(28);
+      console.log("Name number:", name);
+
+      //Ex3
+      let un10;
+      un10 = "Moo!"
+      console.log(un10)
+
+      //Ex4
+      function getTypeOf(value) {
+        return typeof value;
+      }
+      console.log(getTypeOf("Paco")); 
+      console.log(getTypeOf(47)); 
+      console.log(getTypeOf(true)); 
+      console.log(getTypeOf(null)); 
+      console.log(getTypeOf(undefined)); 
+
+      //Ex5
+    //1. true && console.log("moo");
+    //This will print moo, beacuse the variable its true
+    //2. false && console.log("moo moo?")
+    //This will not pri t moo, becaude the variable its false
+    //3. true || console.log("hello friend");
+    //This will not print anything, because the operator OR since the variable it's true, there is no need to evaluate the second operand
+    //4. false || console.log("bye friend");
+    </script>
+  </body>
 </html>
+
