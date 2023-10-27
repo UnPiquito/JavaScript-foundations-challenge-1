@@ -11,11 +11,11 @@
 */
 
 
-const String = "Paco";     
-const Number = 47;                 
-const Boolean = true;              
-const Null = null;              
-const Undefined = undefined; 
+const string = "Paco";     
+const number = 47;                 
+const boolean = true;              
+const nul = null;              
+const undefined = undefined; 
 
 console.log("String:", String);
 console.log("Number:", Number);

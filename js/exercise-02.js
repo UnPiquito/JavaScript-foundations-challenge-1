@@ -7,6 +7,6 @@
 */
 
 
-let un10;
-un10 = "Moo!"
-console.log(un10)
+let undiez;
+undiez = "Moo!"
+console.log(undiez)
