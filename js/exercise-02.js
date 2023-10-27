@@ -5,3 +5,8 @@
     
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
+
+
+let un10;
+un10 = "Moo!"
+console.log(un10)

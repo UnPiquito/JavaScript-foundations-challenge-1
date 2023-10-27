@@ -9,3 +9,15 @@
       Log 'name' value.
 
 */
+
+
+const name = "Unai"
+function updateValue(value) {
+name = value
+}
+updateValue("Cuendria");
+console.log("Musician name:", name);
+updateValue("true");
+console.log("Name true:", name);
+updateValue(28);
+console.log("Name number:", name);
