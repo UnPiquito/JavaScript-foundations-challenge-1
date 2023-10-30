@@ -10,10 +10,9 @@
 
 */
 
-
-const name = "Unai"
+const name = "Unai";
 function updateValue(value) {
-name = value
+  name = value;
 }
 updateValue("Cuendria");
 console.log("Musician name:", name);

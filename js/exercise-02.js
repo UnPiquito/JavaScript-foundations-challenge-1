@@ -6,7 +6,6 @@
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
 
-
 let undiez;
-undiez = "Moo!"
-console.log(undiez)
+undiez = "Moo!";
+console.log(undiez);
