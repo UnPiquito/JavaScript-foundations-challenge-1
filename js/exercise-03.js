@@ -7,7 +7,7 @@
 function getTypeOf(value) {
   return typeof value;
 }
-console.log(getTypeOf("Paco"));
+console.log(getTypeOf("Paco"));//String
 console.log(getTypeOf(47));
 console.log(getTypeOf(true));
 console.log(getTypeOf(null));

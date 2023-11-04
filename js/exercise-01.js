@@ -10,7 +10,7 @@
 
 */
 
-const name = "Unai";
+let name = "Unai";
 function updateValue(value) {
   name = value;
 }
