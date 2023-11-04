@@ -7,5 +7,5 @@
 */
 
 let cow;
-undiez = "Moo!";
+cow = "Moo!";
 console.log(cow);
