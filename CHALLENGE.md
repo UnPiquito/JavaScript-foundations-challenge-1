@@ -1,5 +1,3 @@
-# JavaScript Basics
-
 ## Description
 
 This challenge involves primitive types and operators.

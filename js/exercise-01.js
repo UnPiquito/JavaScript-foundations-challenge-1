@@ -10,13 +10,17 @@
 
 */
 
-let name = "Unai";
+let word = "Unai";
+
 function updateValue(value) {
-  name = value;
+  word = value;
 }
+
 updateValue("Cuendria");
-console.log("Musician name:", name);
+console.log("Musician word:", word);
+
 updateValue("true");
-console.log("Name true:", name);
+console.log("word true:", word);
+
 updateValue(28);
-console.log("Name number:", name);
+console.log("word number:", word);

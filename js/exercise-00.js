@@ -14,10 +14,10 @@ const stringVar = "Paco";
 const numberVar = 47;
 const booleanVar = true;
 const nullVar = null;
-const undefinedVAr = undefined;
+const undefinedVar = undefined;
 
 console.log("String:", stringVar);
 console.log("Number:", numberVar);
 console.log("Boolean:", booleanVar);
 console.log("Null:", nullVar);
-console.log("Undefined:", undefinedVAr);
+console.log("Undefined:", undefinedVar);
