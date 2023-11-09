@@ -7,8 +7,13 @@
 function getTypeOf(value) {
   return typeof value;
 }
-console.log(getTypeOf("Paco"));//string
-console.log(getTypeOf(47));//number
-console.log(getTypeOf(true));//boolean
-console.log(getTypeOf(null));//object
-console.log(getTypeOf(undefined));//undefined
+
+console.log(getTypeOf("Paco")); //string
+
+console.log(getTypeOf(47)); //number
+
+console.log(getTypeOf(true)); //boolean
+
+console.log(getTypeOf(null)); //null
+
+console.log(getTypeOf(undefined)); //undefined
