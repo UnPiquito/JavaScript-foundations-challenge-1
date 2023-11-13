@@ -11,4 +11,3 @@ cow = "Moo!";
 console.log(cow);
 
 //When you declare a variable with const, it forces you to initialize it and you cannot change the value of the variable later
-
